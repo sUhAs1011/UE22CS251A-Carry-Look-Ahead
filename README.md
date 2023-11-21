@@ -8,3 +8,5 @@ The CLA architecture consists of two main components: Generate (G) and Propagate
 Using these G and P signals, the CLA computes the carry-out (Cout) for each bit position in parallel. This accelerates the addition process by enabling simultaneous carry determination across the entire adder, minimizing the dependency on previous carry bits. Additionally, the CLA architecture facilitates easy scalability for larger bit-width additions by extending the same logic to handle more bits while maintaining efficiency in carry propagation.
 
 Please store the source code and the test bench code in the bin of the iverilog in order to generate the output table and gtkwave
+
+The commands in 1.png are used for generating the output table and the command in 2.png is used for generating gtkwave
