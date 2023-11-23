@@ -11,7 +11,7 @@ Please store the source code and the test bench code in the bin of the iverilog 
 
 Command for the output table of carry look ahead
 ```shell
-iverilog -o cla cla.v cla_tb.c
+iverilog -o cla cla.v cla_tb.v
 ```
 
 Command for generating a gtkwave
