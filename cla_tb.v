@@ -5,7 +5,7 @@ module Test_CLA_4bit;
     reg Cin;
 
     // Outputs
-    wire [4:0] S;
+    wire [3:0] S;
     wire Cout;
     wire PG;
     wire GG;
