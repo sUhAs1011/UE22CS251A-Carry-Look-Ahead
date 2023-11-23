@@ -9,4 +9,13 @@ Using these G and P signals, the CLA computes the carry-out (Cout) for each bit 
 
 Please store the source code and the test bench code in the bin of the iverilog in order to generate the output table and gtkwave
 
-The commands in 1.png are used for generating the output table and the command in 2.png is used for generating gtkwave
+Command for the output table of carry look ahead
+```shell
+iverilog -o cla cla.v cla_tb.c
+```
+
+Command for generating a gtkwave
+
+```shell
+gtkwave CLA_4bit.vcd
+```
