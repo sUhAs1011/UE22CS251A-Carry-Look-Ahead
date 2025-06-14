@@ -20,3 +20,5 @@ Command for generating a gtkwave
 ```shell
 gtkwave CLA_4bit.vcd
 ```
+![image](https://github.com/user-attachments/assets/4e49f528-41d8-4d9b-bfd6-b4255f0f4679)
+
