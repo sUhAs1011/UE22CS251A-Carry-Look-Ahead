@@ -12,6 +12,8 @@ Command for the output table of carry look ahead
 ```shell
 iverilog -o cla cla.v cla_tb.v
 ```
+![image](https://github.com/user-attachments/assets/0e50bea4-2b8b-4313-9432-442949f67417)
+
 
 Command for generating a gtkwave
 
